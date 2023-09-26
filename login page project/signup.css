@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Screenshot\ 2023-09-25\ 204651.png');
+    }
+   
+.container{
+    width: 350px;
+    height: 380px;
+    border: 1px solid rgb(169, 167, 167);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    }
+    .box1{
+        position: relative;
+        top: -52px;
+        color: white;
+    }
+    .mob{
+        height: 30px;
+        width: 279px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 3px;
+    }
+    .name{
+        position: relative;
+        top: 10px;
+        height: 30px;
+        width: 279px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 3px;
+    }
+    .username{
+        height: 30px;
+        width: 279px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 3px;
+        position: relative;
+        top: 20px;
+    }
+    .password{
+        position: relative;
+        top: 30px;
+        height: 30px;
+        width: 279px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 3px;
+    }
+    .sign{
+        position: relative;
+        top: 60px;
+        width: 280px;
+        height: 30px;
+        background-color: rgb(0, 43, 77);
+        color: white;
+        border: 0;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    ::placeholder {
+        color: #c7c7be;
+        opacity: 1; 
+      }
